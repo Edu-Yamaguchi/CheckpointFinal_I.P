@@ -1,4 +1,4 @@
-const curso = require("./Curso");
+const curso = require("./Modulos/Curso");
 
 curso.listaEstudantes.forEach((aluno)=>{
     console.log(`Nome: ${aluno.nome}`);
